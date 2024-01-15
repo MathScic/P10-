@@ -128,7 +128,7 @@ const Page = () => {
       <footer className="row">
         <div className="col presta">
           <h3>Notre derniére prestation</h3>
-          {oneCurrentMontEvent && ( // fait apparaitre photo en fonction du mosi de l'event (ou mois le plus proche)
+          {oneCurrentMontEvent && ( // fait apparaitre photo en fonction du mois de l'event (ou mois le plus proche)
             <EventCard
               key={oneCurrentMontEvent.id}
               imageSrc={oneCurrentMontEvent.cover}

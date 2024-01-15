@@ -22,6 +22,8 @@ const Select = ({
     setCollapsed(true); // Collapser le menu une fois la sélection effectuée
   };
 
+  // const filterByDate = data?.focus.sort((evtA, evtB) =>
+
   return (
     <div className={`SelectContainer ${type}`} data-testid="select-testid">
       {label && <div className="label">{label}</div>}
